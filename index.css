@@ -1,3 +1,64 @@
-#heading {
-    color : red;
+.header {
+    display:flex;
+    justify-content:space-between;
+    border: 2px solid black;
+}
+.logo {
+    width: 150px;
+}
+
+.nav-items {
+    padding: 0px 20px;
+    padding-right: 200px;
+}
+
+.nav-items > ul {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 0px;
+    margin: 10px;
+}
+
+.button-items {
+    padding: 30px;
+}
+
+.search {
+    padding: 5px;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 190px;
+    height: auto;
+}
+
+.res-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-logo {
+    width: 100%;
+    height: 40%;
+}
+
+.filter-btn {
+    margin: 5px;
+    cursor: pointer;
+}
+.search-btn {
+    margin: 5px;
+    cursor: pointer;
 }
