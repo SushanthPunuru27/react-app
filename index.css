@@ -1,64 +1,110 @@
 .header {
-    display:flex;
-    justify-content:space-between;
-    border: 2px solid black;
+  display: flex;
+  /* justify-content:space-between; */
+  border: 2px solid black;
+  background-color: darksalmon;
 }
 .logo {
-    width: 150px;
+  padding-left: 15px;
+  width: 80px;
+  margin: 5px;
 }
 
 .nav-items {
-    padding: 0px 20px;
-    padding-right: 200px;
+  padding: 0px 20px;
+  padding-left: 700px;
 }
 
 .nav-items > ul {
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .nav-items > ul > li {
-    padding: 0px;
-    margin: 10px;
+  /* padding: 0px; */
+  margin: 10px;
+}
+
+.search-bar {
+  margin: 5px;
 }
 
 .button-items {
-    padding: 30px;
+  padding: 30px;
 }
 
 .search {
-    padding: 5px;
+  padding: 5px;
 }
 
 .res-card {
-    margin: 5px;
-    padding: 5px;
-    width: 190px;
-    height: auto;
+  margin: 5px;
+  padding: 5px;
+  width: 190px;
+  height: auto;
 }
 
 .res-containers {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-containers-link {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
 }
 
 .res-card:hover {
-    cursor: pointer;
-    border: 1px solid black;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 .res-logo {
-    width: 100%;
-    height: 40%;
+  width: 100%;
+  height: 40%;
+}
+
+.res-items {
+  margin: 5px;
+  padding: 5px;
+  width: 190px;
+  height: 175px;
+}
+.res-items-img {
+  width: 100%;
+  height: 70%;
+}
+.res-items-containers {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .filter-btn {
-    margin: 5px;
-    cursor: pointer;
+  margin: 5px;
+  cursor: pointer;
 }
 .search-btn {
-    margin: 5px;
-    cursor: pointer;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.shimmer-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-cards {
+  margin: 5px;
+  padding: 5px;
+  width: 190px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.user-details {
+  padding: 10px;
+  border: 1px solid black;
 }

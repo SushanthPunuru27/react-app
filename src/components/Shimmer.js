@@ -1,16 +1,13 @@
-import React from "react";
-import { Image, Shimmer  } from "react-shimmer";
-
-//not done properly
 const Shimmer = () => {
-    return (
-    <div>
-      <Image
-        src='https://source.unsplash.com/random/800x600'
-        fallback={<Shimmer width={800} height={600} />}
-      />
+  return (
+    <div className="res-containers">
+      {Array(15)
+        .fill("")
+        .map((index) => (
+          <div key={index} className="shimmer-cards"></div>
+        ))}
     </div>
-    )
-}
+  );
+};
 
 export default Shimmer;
